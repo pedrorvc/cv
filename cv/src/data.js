@@ -45,7 +45,7 @@ export const CVData = {
           company:
             "Molecular Microbiology and Infection group coordinated by Dr Mário Ramirez, at Instituto de Medicina Molecular João Lobo Antunes",
           description:
-            "Maintenance and extension of chewBBACA, a complete suite for gene-by-gene schema creation and strain identification. Creationand curation of gene-by-gene typing schemas.",
+            "Maintenance and extension of chewBBACA, a complete suite for gene-by-gene schema creation and strain identification. Creation and curation of gene-by-gene typing schemas.",
           companyWebSite: "",
           companyMeta: "",
           datesBetween: "2021.01 - present",
