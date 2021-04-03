@@ -5,6 +5,7 @@ export const CVData = {
     contacts: [
       { type: "email", value: "pedrorvcerqueira@gmail.com" },
       { type: "location", value: "Portugal" },
+      { type: 'linkedin', value: 'linkedin.com/in/pedro-vila-cerqueira' },
       { type: "github", value: "github.com/pedrorvc" },
     ],
   },
@@ -13,7 +14,7 @@ export const CVData = {
       type: "text",
       title: "Career Profile",
       content:
-        "While studying in the field of Biology, I learned about different areas of specialization and completed projects along the degree. During this time the field of Bioinformatics came to my attention due to the new approaches it presented. Thus, I decided to join the master’s in Bioinformatics and Computational Biology in order to connect the acquired knowledge in Biology with a long passion for computer science. During the master’s course, I soon realized that overcoming challenges and constantly learning is what I believe to be the qualities required in order to become a professional of excellence in this field. My latest experience in bioinformatics applied to clinical microbiology has allowed me to further develop my skills and improve my critical thinking.",
+        "While studying in the field of Biology, I learned about different areas of specialization and completed projects along the degree. During this time the field of Bioinformatics came to my attention due to the potential it presented. Thus, I decided to obtain a master’s degree in Bioinformatics and Computational Biology in order to connect the acquired knowledge in Biology with a long passion for computer science. During the master’s course, I soon realized that overcoming challenges, constant learning and adaptability is what I believe to be the qualities required in order to become a professional of excellence in this field. My latest experience in bioinformatics applied to clinical microbiology has allowed me to further develop my frontend developer skills by designing a service that displays and allows the sharing of bacterial core and whole genome typing data.",
       icon: "usertie",
     },
     {
@@ -129,6 +130,8 @@ export const CVData = {
       items: [
         {
           title: "Bioinformatic Open Days 2020",
+          authority: "Abstract Book",
+          authorityWebSite: "https://www.bioinformaticsopendays.com/files/Livro_Resumos_BOD_2020.pdf",
           authorityMeta: "Speaker",
         },
       ],
@@ -159,7 +162,10 @@ export const CVData = {
       items: [
         "Python",
         "React",
-        "Javascript",
+        "Javascript ES6",
+        "SPARQL",
+        "HTML5",
+        "CSS",
         "Git",
         "SQL",
         "Docker",
@@ -170,6 +176,12 @@ export const CVData = {
         "Pandas & Numpy",
         "SQLAlchemy",
       ],
+    },
+    {
+      type: "tag-list",
+      title: "Soft Skills",
+      icon: "cubes",
+      items: ["Self-learning", "Teamwork", "Adaptability"],
     },
     {
       type: "tag-list",
